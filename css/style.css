@@ -108,13 +108,24 @@ a {
   justify-content: center;
 }
 
+.hero .row > * {
+  text-align: center;
+}
+
 .intro {
   padding: 30px;
-  text-align: center;
 }
 
 .intro h1 {
   margin-bottom: 20px;
+}
+
+.hero-buttons {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* SECTION 2 */
@@ -212,18 +223,18 @@ a {
 
 /* DEBUG RULES */
 
-.debug .container {
+/* .debug .container {
   border: 2px dotted black;
-}
+} */
 
 .debug .row {
-  border: 2px dotted rgb(245, 0, 0);
+  /* border: 2px dotted rgb(245, 0, 0); */
   flex-grow: 1;
 }
-
+/* 
 .debug .col {
   border: 2px dotted rgb(0, 145, 255);
-}
+} */
 
 .debug .col-100 {
   background-color: rgb(0, 140, 26);
