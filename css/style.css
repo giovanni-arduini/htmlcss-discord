@@ -57,11 +57,21 @@ a {
   width: calc(100% / 6);
 }
 
+.button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+ß
+
+
 /* HEADER */
 
 .main-header {
   padding: 20px 80px;
-  background-color: rgb(176, 180, 182);
+  color: white;
+  background-color: rgba(37, 94, 233, 255);
 }
 
 .navbar {
