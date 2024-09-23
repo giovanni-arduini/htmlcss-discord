@@ -1,0 +1,254 @@
+/* RESET RULES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 900px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-100 {
+  width: 100%;
+  /* background-color: rgb(0, 140, 26); */
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-66 {
+  width: calc((100% * 2) / 3);
+}
+
+.col-33 {
+  width: calc(100% / 3);
+}
+
+.col-16 {
+  width: calc(100% / 6);
+}
+
+/* HEADER */
+
+.main-header {
+  padding: 20px 80px;
+  background-color: rgb(176, 182, 182);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .link {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navbar .login {
+  text-align: end;
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+
+.section-1 {
+  display: flex;
+  align-content: center;
+}
+
+.section-1 .container {
+  display: flex;
+  width: 700px;
+  align-self: center;
+  justify-content: center;
+}
+
+/* SECTION 2 */
+
+.section-2 {
+  padding: 40px;
+}
+
+.section-2 .container {
+  display: flex;
+}
+
+/* SECTION 3 */
+
+.section-3 {
+  padding: 40px;
+}
+
+.section-3 .container {
+  display: flex;
+}
+
+/* SECTION 4 */
+
+.section-4 {
+  padding: 40px;
+}
+
+.section-4 .container {
+  display: flex;
+}
+
+/* SECTION 5 */
+
+.section-5 {
+  padding: 40px;
+}
+
+.section-5 .container {
+  display: flex;
+}
+
+/* SECTION 6 */
+
+.section-6 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: rgb(44, 43, 45);
+}
+
+.section-6 .container {
+  display: flex;
+}
+
+.section-6 .row {
+  min-height: 400px;
+  display: flex;
+}
+
+/* FOOTER*/
+
+.main-footer {
+  background-color: rgb(44, 43, 45);
+  padding-top: 20px;
+}
+
+.main-footer .container {
+  background-color: aqua;
+  align-items: center;
+}
+
+.main-footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 40px;
+}
+
+/* UTILITIES */
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* DEBUG RULES */
+
+.debug .container {
+  border: 2px dotted black;
+}
+
+.debug .row {
+  border: 2px dotted rgb(245, 0, 0);
+  flex-grow: 1;
+}
+
+.debug .col {
+  border: 2px dotted rgb(0, 145, 255);
+}
+
+.debug .col-100 {
+  background-color: rgb(0, 140, 26);
+}
+
+.debug .col-60 {
+  background-color: rgb(85, 176, 255);
+}
+
+.debug .col-66 {
+  background-color: rgb(43, 223, 255);
+}
+
+.debug .col-40 {
+  background-color: rgb(246, 202, 255);
+}
+
+.debug .col-33 {
+  background-color: rgb(252, 148, 188);
+}
+
+.debug .col-16 {
+  background-color: rgb(118, 222, 228);
+}
+
+.debug.section-1 {
+  background-color: rgb(26, 26, 191);
+  min-height: 300px;
+}
+
+.debug.section-1 .row {
+  min-height: 250px;
+  background-color: rgb(255, 147, 242);
+}
+
+.debug.section-2 .row > * {
+  border: 2px dashed black;
+  min-height: 300px;
+}
+
+.debug.section-3 {
+  background-color: rgb(223, 223, 223);
+}
+
+.debug.section-3 .row {
+  min-height: 300px;
+}
+
+.debug.section-4 .row {
+  min-height: 300px;
+}
+.debug.section {
+  background-color: rgb(223, 223, 223);
+}
+.debug.section-5 .row {
+  min-height: 500px;
+}
+
+.main-footer.debug .row > * {
+  background-color: pink;
+  padding: 5px;
+}
