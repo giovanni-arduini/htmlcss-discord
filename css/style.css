@@ -63,8 +63,6 @@ a {
   color: black;
   border-radius: 20px;
 }
-ß
-
 
 /* HEADER */
 
@@ -77,6 +75,7 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar .link {
