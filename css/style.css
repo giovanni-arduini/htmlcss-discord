@@ -116,10 +116,6 @@ a {
   padding: 30px;
 }
 
-.intro h1 {
-  margin-bottom: 20px;
-}
-
 .hero-buttons {
   flex-grow: 1;
   display: flex;
@@ -130,13 +126,24 @@ a {
 
 /* SECTION 2 */
 
-.section-2 {
+.groups {
   padding: 40px;
 }
 
-.section-2 .container {
+.groups .container {
   display: flex;
 }
+
+.groups .col-60 {
+  background-image: url(../img/item1.svg);
+  background-size: cover;
+}
+
+/* .groups .col-40 {
+  text-align: justify;
+} */
+
+.groups
 
 /* SECTION 3 */
 
@@ -213,8 +220,13 @@ a {
   color: white;
 }
 
+/* .content {
+  text-align: justify;
+} */
+
 .title {
-  font-size: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .par {
@@ -240,9 +252,9 @@ a {
   background-color: rgb(0, 140, 26);
 }
 
-.debug .col-60 {
+/* .debug .col-60 {
   background-color: rgb(85, 176, 255);
-}
+} */
 
 .debug .col-66 {
   background-color: rgb(43, 223, 255);
@@ -270,7 +282,7 @@ a {
   background-color: rgb(255, 147, 242);
 } */
 
-.debug.section-2 .row > * {
+.debug.groups .row > * {
   border: 2px dashed black;
   min-height: 300px;
 }
