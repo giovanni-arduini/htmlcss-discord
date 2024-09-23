@@ -157,6 +157,20 @@ a {
   background-image: url(../img/item3.svg);
 }
 
+/* MEET */
+
+.meet {
+  padding: 40px;
+}
+
+.meet .container {
+  display: flex;
+}
+
+.meet .col-60 {
+  background-image: url(../img/item2.svg);
+}
+
 /* SECTION 4 */
 
 .section-4 {
@@ -267,9 +281,9 @@ a {
   background-color: rgb(43, 223, 255);
 }
 
-.debug .col-40 {
+/* .debug .col-40 {
   background-color: rgb(246, 202, 255);
-}
+} */
 
 .debug .col-33 {
   background-color: rgb(252, 148, 188);
@@ -289,18 +303,18 @@ a {
   background-color: rgb(255, 147, 242);
 } */
 
-.debug.groups .row > * {
+/* .debug.groups .row > * {
   border: 2px dashed black;
   min-height: 300px;
-}
+} */
 
-.debug.section-3 {
+/* .debug.meet {
   background-color: rgb(223, 223, 223);
-}
+} */
 
-.debug.section-3 .row {
+/* .debug.meet .row {
   min-height: 300px;
-}
+} */
 
 .debug.section-4 .row {
   min-height: 300px;
