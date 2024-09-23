@@ -81,14 +81,14 @@ a {
 
 /* MAIN */
 
-/* SECTION 1 */
+/* Hero */
 
-.section-1 {
+.hero {
   display: flex;
   align-content: center;
 }
 
-.section-1 .container {
+.hero .container {
   display: flex;
   width: 700px;
   align-self: center;
@@ -215,12 +215,12 @@ a {
   background-color: rgb(118, 222, 228);
 }
 
-.debug.section-1 {
+.debug.hero {
   background-color: rgb(26, 26, 191);
   min-height: 300px;
 }
 
-.debug.section-1 .row {
+.debug.hero .row {
   min-height: 250px;
   background-color: rgb(255, 147, 242);
 }
