@@ -8,6 +8,7 @@
 
 body {
   background-color: aliceblue;
+  font-family: "Roboto";
 }
 
 ul,
@@ -62,13 +63,13 @@ a {
   background-color: white;
   color: black;
   border-radius: 20px;
+  font-size: 20px;
 }
 
 /* HEADER */
 
 .main-header {
   padding: 20px 80px;
-  color: white;
   background-color: rgba(37, 94, 233, 255);
 }
 
@@ -81,7 +82,7 @@ a {
 .navbar .link {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .navbar .login {
@@ -95,6 +96,7 @@ a {
 .hero {
   display: flex;
   align-content: center;
+  min-height: 550px;
   background-image: url(../img/jumbo.png);
   background-size: cover;
 }
@@ -104,6 +106,15 @@ a {
   width: 700px;
   align-self: center;
   justify-content: center;
+}
+
+.intro {
+  padding: 30px;
+  text-align: center;
+}
+
+.intro h1 {
+  margin-bottom: 20px;
 }
 
 /* SECTION 2 */
@@ -187,6 +198,18 @@ a {
   flex-direction: row-reverse;
 }
 
+.white {
+  color: white;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.par {
+  font-size: 20px;
+}
+
 /* DEBUG RULES */
 
 .debug .container {
@@ -226,7 +249,7 @@ a {
   background-color: rgb(118, 222, 228);
 }
 
-.debug.hero {
+/* .debug.hero {
   background-color: rgb(26, 26, 191);
   min-height: 300px;
 }
@@ -234,7 +257,7 @@ a {
 .debug.hero .row {
   min-height: 250px;
   background-color: rgb(255, 147, 242);
-}
+} */
 
 .debug.section-2 .row > * {
   border: 2px dashed black;
